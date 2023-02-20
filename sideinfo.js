@@ -1,4 +1,4 @@
-fetch("./sideinfo.html")
+fetch("sideinfo.html")
   .then(response => {
     return response.text()
   })
